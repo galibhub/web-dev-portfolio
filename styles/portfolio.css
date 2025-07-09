@@ -30,6 +30,11 @@
 
 /*nav styles */
 
+.secondary-bg
+{
+    background-color: #FFF8F3;
+}
+
 nav ul
 {
     display: flex;
@@ -103,4 +108,43 @@ nav li a
 .banner-profile-pic{
     width: 580px;
 
+}
+
+.section-title
+{
+    font-size 35px;
+    font-weight:bold;
+    color:#181818;
+
+}
+.section-description
+{
+    font-size: 18px;
+    columns: #757575;
+}
+
+/*ABOUT*/
+
+.about
+{
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+main
+{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-items
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item-description
+{
+    font-weight: 600;
 }
